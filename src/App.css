@@ -6,6 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  overflow-x: hidden
 }
 
 .App-header {
@@ -49,9 +50,10 @@ body {
   color: #fff;
   border: 1px solid rgb(24, 3, 24);
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:900px) {
   .App{
     padding: 0.9rem 1rem;
+    overflow-y: hidden;
 
   }
 }

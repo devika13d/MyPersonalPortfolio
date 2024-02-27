@@ -116,6 +116,8 @@
         gap: 20rem;
     }
     button{
-        width: auto;
+        max-width: auto;
+        padding: auto;
+        gap: auto;
     }
 }
