@@ -31,7 +31,7 @@
         "id": 5,
         "title": "Login App",
         "description": "The ReactJS frontend and MongoDB backend login system provides secure authentication for users. It supports registration, login, and access to protected resources. Passwords are hashed and stored securely in MongoDB.Features include password reset, email verification, and robust error handling. Scalable, performant, and reliable, it offers a seamless user experience.",
-        "image": "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_HyMEjLc1nEhXZNRjgaxZh2q3WKKg%26teamId%3Ddevika13ds-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_HjSZwRjzzQCA83oLkrqgJw1eG4Lv",
+        "image": "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_HyMEjLc1nEhXZNRjgaxZh2q3WKKg%26teamId%3Ddevika13ds-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_6jNEJZi3LaNwifMP3XYinkPPdH8i",
         "link": "https://github.com/devika13d/LoginSystemPro-mongo-ex-client-side-"
     },
     {

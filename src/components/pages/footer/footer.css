@@ -11,29 +11,39 @@
     margin-top: 25rem;
 }
 
-.f-c{
+.f-c {
     position: absolute;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
     margin-top: -0.3rem;
-    
+
 }
 
-.f-icons{
+.f-icons {
     display: flex;
     gap: 5rem;
     width: 200px;
     align-items: center;
     justify-content: center;
 }
-.f-icons i{
-   /* width: 00px; */
+
+.f-icons i {
+    /* width: 00px; */
 }
-@media screen and (max-width:900px){
-    h5{
+
+@media screen and (max-width:900px) {
+    h5 {
         position: absolute;
         margin-top: -63px;
+    }
+
+    .footer img {
+
+        position: absolute;
+        display: block;
+        flex-direction: row;
+        gap: 10rem;
     }
 }

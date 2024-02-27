@@ -176,4 +176,7 @@ body{
       .floating-div:nth-of-type(1){
         top: -4rem !important;
       }
+      .button-m{
+        padding: auto;
+      }
     }
