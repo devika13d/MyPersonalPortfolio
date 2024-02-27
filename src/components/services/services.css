@@ -1,0 +1,93 @@
+.skills {
+    padding: 0 3rem 0 3 rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 13rem;
+}
+
+.s-button {
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 9px;
+    background: linear-gradient(180deg, violet 26.71%, rgb(67, 2, 67) 99.36%);
+    box-shadow: 0px 20px 24px 3px rgb(76, 75, 75);
+    transition: background-color 0.3s, color 0.3s;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 3rem;
+}
+
+.s-button:hover {
+    background: whitesmoke;
+    cursor: pointer;
+    color: var(--violet);
+    background-color: rgb(86, 25, 128);
+    color: #fff;
+    border: 1px solid rgb(24, 3, 24);
+}
+
+.awe {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.awe>:nth-child(1) {
+    color: var(--violet);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awe>:nth-child(2) {
+    margin-top: 1rem;
+    color: rgb(56, 52, 52);
+}
+
+.awe>:nth-child(3) {
+    color: rgb(17, 1, 31);
+    font-size: 14px;
+}
+
+.s-blur2 {
+    left: -15rem;
+    top: 0rem;
+}
+
+.s-blur1 {
+    top: 13rem;
+    left: 19rem;
+    opacity: 0.5;
+}
+@keyframes cards {
+    0%{
+       transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.cards{
+    animation: cards 10s linear alternate 2s;
+}
+@media screen and (max-width:900px){
+    .skills{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 56rem;
+        padding: 0;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+        
+    }
+    .cards>*{
+        position: static;
+    }
+}

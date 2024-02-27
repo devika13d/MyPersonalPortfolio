@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Simple Interest",
+        "description": "A simple interest calculator built using React.js. This project allows users to calculate the simple interest on  principal amount given the rate of interest and time period",
+        "image": "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_5rEWW5gTNn6ppYweKQDXRuPwvr4U%26teamId%3Ddevika13ds-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_6dDuKnFh6XhS1WaX6HTHPmoCR9is",
+        "link": "https://github.com/devika13d/SimpleInterest"
+    },
+    {
+        "id": 2,
+        "title": "Tourist Website",
+        "description": "The Tourist Website with HTML, CSS, and Bootstrap is a visually appealing and user-friendly platform designed to showcase popular tourist destinations and attractions. Built with HTML for structure, CSS for styling, and Bootstrap for responsive design components, this website offers a seamless browsing experience across different devices and screen sizes. Users can explore various destinations through beautiful images, informative descriptions, and interactive maps.",
+        "image": "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_952aEC3wcq2N6o7K5Pe7n23x94Jk%26teamId%3Ddevika13ds-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_HjSZwRjzzQCA83oLkrqgJw1eG4Lv",
+        "link": "https://github.com/devika13d/Tourist-website"
+    },
+    {
+        "id": 3,
+        "title": "Netflix Clone App",
+        "description": "A Netflix clone app built using ReactJS. This app mimics the user interface of Netflix, allowing users to browse through a collection of movies and TV shows. Users can search for specific titles, view details about each movie or TV show, and play trailers. The app fetches movie data from an external API such as The Movie Database (TMDb) and displays it in a visually appealing manner similar to Netflix. It utilizes React Router for navigation between different pages and Axios for fetching data from the API.",
+        "image": "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_CQ1PkPPuNyivLywDQ92Yk2p6V9Qn%26teamId%3Ddevika13ds-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_8d1HNCKT2q8qeentQcjAvAunDc91",
+        "link": "https://github.com/devika13d/NetflixIndia"
+    },
+    {
+        "id": 4,
+        "title": "Media Player App",
+        "description": "The Media Player App with JSON Server is a multimedia application built using ReactJS for the frontend and JSON Server for the backend. This app allows users to manage and play their media files such as audio and video. Users can upload their media files, organize them into playlists, and play them seamlessly within the app. JSON Server is used as a lightweight backend to store media metadata and user data. The app features a responsive and user-friendly interface, making it easy for users to navigate and interact with their media library.",
+        "image": "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_5Etk32cDN7diY3jyxtjL7C3ZvhKa%26teamId%3Ddevika13ds-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_8d1HNCKT2q8qeentQcjAvAunDc91",
+        "link": "https://github.com/devika13d/Frontend-MediaPlayer"
+    },
+    {
+        "id": 5,
+        "title": "Login App",
+        "description": "The ReactJS frontend and MongoDB backend login system provides secure authentication for users. It supports registration, login, and access to protected resources. Passwords are hashed and stored securely in MongoDB.Features include password reset, email verification, and robust error handling. Scalable, performant, and reliable, it offers a seamless user experience.",
+        "image": "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_HyMEjLc1nEhXZNRjgaxZh2q3WKKg%26teamId%3Ddevika13ds-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_HjSZwRjzzQCA83oLkrqgJw1eG4Lv",
+        "link": "https://github.com/devika13d/LoginSystemPro-mongo-ex-client-side-"
+    },
+    {
+        "id": 6,
+        "title": "Restaurant Web",
+        "description": "A Restaurant App built using Redux for state management. This app allows users to browse through a list of menu items, add items to their cart, and place orders. The application state is managed centrally using Redux, which enables seamless data flow and updates across different components. Redux actions are used to trigger state changes, such as adding items to the cart or removing them. Reducers specify how the state should change in response to these actions. ",
+        "image": "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_DPcEEbjp6J7T4VDpuRJtgjQX57c8%26teamId%3Ddevika13ds-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_8d1HNCKT2q8qeentQcjAvAunDc91",
+        "link": "https://github.com/devika13d/Restaurant-app-react-redux"
+    },
+    {
+        "id": 7,
+        "title": "Counter App",
+        "description": "The Counter App with ReactJS is a simple application that allows users to increment and decrement a counter value. Built with ReactJS, this app demonstrates the fundamental concepts of state management and component interaction in React. Users can click on buttons to increase or decrease the counter value, and the updated value is instantly reflected on the screen.",
+        "image": "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_9NCp8Q6iBxTCYcAR4xTYjMrVnj3g%26teamId%3Ddevika13ds-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_8d1HNCKT2q8qeentQcjAvAunDc91",
+        "link": "https://github.com/devika13d/Counter-redux-project"
+    }
+]

@@ -2,15 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .App-header {
@@ -28,11 +23,35 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+/* color palletee */
+:root {
+  --violet: rgba(60, 0, 60, 0.639);
+  --blue:rgba(48, 17, 159, 0.639);
+}
+
+.button {
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  background: linear-gradient(180deg, violet 26.71%, rgb(67, 2, 67) 99.36%);
+  box-shadow: 0px 20px 24px 3px rgb(76, 75, 75);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background: whitesmoke;
+  cursor: pointer;
+  color: var(--violet);
+  background-color: rgb(86, 25, 128);
+  color: #fff;
+  border: 1px solid rgb(24, 3, 24);
+}
+@media screen and (max-width:480px) {
+  .App{
+    padding: 0.9rem 1rem;
+
   }
 }

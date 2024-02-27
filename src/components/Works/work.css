@@ -1,0 +1,95 @@
+.work {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 76vh;
+    margin-top: 89rem;
+}
+
+.m-r {
+    position: relative;
+
+}
+@keyframes ma {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(60deg);
+    }
+}
+
+.main-c {
+    left: 8rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: 0px 20px 24px 0 rgb(184, 179, 179);
+    top: 2rem;
+    background: white;
+    animation: ma 20s linear alternate infinite;
+}
+
+.main-c>* {
+    position: absolute;
+}
+
+.main-c>:nth-child(1) {
+    top: 8rem;
+    left: 13rem;
+}
+
+.main-c>:nth-child(2) {
+    top: -1rem;
+    left: 9rem;
+}
+
+.main-c>:nth-child(3) {
+    top: 8rem;
+    left: -3rem;
+}
+
+.main-c>:nth-child(4) {
+    top: 14rem;
+    left: 5rem;
+}
+
+.sec-c {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 20px 24px 0 rgb(184, 179, 179);
+    background: white;
+}
+
+.sec-c img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.sec-c>img {
+    transform: scale(0.6);
+}
+
+.back-cir {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.b-cir{
+    background: #8c9dc6;
+    left: 17rem;
+    top: 1rem;
+}
+.y-cir{
+    background: rgb(163, 130, 176);
+    left: 18rem;
+    top: 9rem;
+}

@@ -1,0 +1,19 @@
+.toogle{
+    display: flex;
+    justify-content:space-between;
+    border: 3px solid var(--violet);
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+}
+.toogle>*{
+    width: 1rem;
+    height: 1rem;
+    color: rgb(139, 83, 139);
+}
+.to-button{
+    border-radius: 100%;
+    background: var(--violet);
+    position: absolute;
+}

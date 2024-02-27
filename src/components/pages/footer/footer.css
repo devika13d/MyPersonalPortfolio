@@ -1,0 +1,39 @@
+.footer img {
+    border: 2px solid white;
+    border-radius: 2px;
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    margin-top: 25rem;
+}
+
+.f-c{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -0.3rem;
+    
+}
+
+.f-icons{
+    display: flex;
+    gap: 5rem;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.f-icons i{
+   /* width: 00px; */
+}
+@media screen and (max-width:900px){
+    h5{
+        position: absolute;
+        margin-top: -63px;
+    }
+}
